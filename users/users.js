@@ -25,7 +25,7 @@ function add(user){
     });
 }
 
-function findById(id){
+function findByID(id){
     return db('users')
     .where({ id })
     .first();
